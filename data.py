@@ -7,6 +7,7 @@ def textChecker(text,min,max):
         selector:str = input(text+" > ")
         if selector == "999":
             developerTool()
+            break
         else:
             pass
         if selector.isdecimal():
